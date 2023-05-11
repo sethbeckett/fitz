@@ -1,0 +1,8 @@
+current_model: gpt-3.5-turbo
+coding_context:
+    directory: .
+    files:
+        - file1.py
+        - file2.py
+log_file: ./api_calls.json
+current_role: coding assistant # not to be set manually, will mess up creation of "system" message
